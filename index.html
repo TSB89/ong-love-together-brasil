@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header">
         <h1>🚰 Mapa dos Poços - Love Together</h1>
         <p>Projeto de acesso à água potável na Paraíba</p>
     </div>
-    
+
     <div class="map-container">
         <div id="map"></div>
     </div>
-    
+
+    <!-- PAINEL DE ESTATÍSTICAS PRINCIPAL -->
     <div class="stats-panel">
         <div class="stat-item">
-            <div class="stat-number">20</div>
+            <div class="stat-number">57</div>
             <div class="stat-label">Total de Poços</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">17</div>
+            <div class="stat-number">49</div>
             <div class="stat-label">Poços Instalados</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">3</div>
+            <div class="stat-number">8</div>
             <div class="stat-label">Aguardando Instalação</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">R$ 179.824</div>
+            <div class="stat-number">R$ 633.764</div>
             <div class="stat-label">Investimento Total</div>
         </div>
     </div>
 
+    <!-- ESTATÍSTICAS DETALHADAS -->
     <div class="detailed-stats">
         <h2>📊 Estatísticas Detalhadas</h2>
         <div class="stats-grid">
@@ -44,11 +48,19 @@
                 <div class="municipality-stats">
                     <div class="municipality-item">
                         <span class="municipality-name">Piancó/PB</span>
-                        <span class="municipality-count">14</span>
+                        <span class="municipality-count">31</span>
                     </div>
                     <div class="municipality-item">
-                        <span class="municipality-name">Santana do Garrotes/PB</span>
-                        <span class="municipality-count">4</span>
+                        <span class="municipality-name">Serra Grande/PB</span>
+                        <span class="municipality-count">11</span>
+                    </div>
+                    <div class="municipality-item">
+                        <span class="municipality-name">Santana dos Garrotes/PB</span>
+                        <span class="municipality-count">11</span>
+                    </div>
+                    <div class="municipality-item">
+                        <span class="municipality-name">Emas/PB</span>
+                        <span class="municipality-count">2</span>
                     </div>
                     <div class="municipality-item">
                         <span class="municipality-name">Boa Ventura/PB</span>
@@ -56,6 +68,22 @@
                     </div>
                     <div class="municipality-item">
                         <span class="municipality-name">Olho D'água/PB</span>
+                        <span class="municipality-count">1</span>
+                    </div>
+                    <div class="municipality-item">
+                        <span class="municipality-name">Nova Olinda/PB</span>
+                        <span class="municipality-count">1</span>
+                    </div>
+                    <div class="municipality-item">
+                        <span class="municipality-name">Itaporanga/PB</span>
+                        <span class="municipality-count">1</span>
+                    </div>
+                    <div class="municipality-item">
+                        <span class="municipality-name">Pedra Branca/PB</span>
+                        <span class="municipality-count">1</span>
+                    </div>
+                    <div class="municipality-item">
+                        <span class="municipality-name">Conceição/PB</span>
                         <span class="municipality-count">1</span>
                     </div>
                 </div>
@@ -66,7 +94,7 @@
                 <div class="depth-stats">
                     <div class="stat-row">
                         <span class="stat-label">Poço mais profundo:</span>
-                        <span class="stat-value">150m</span>
+                        <span class="stat-value">150m (2 poços)</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Poço mais raso:</span>
@@ -74,19 +102,19 @@
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Profundidade média:</span>
-                        <span class="stat-value">62m</span>
+                        <span class="stat-value">70m</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Poços > 100m:</span>
-                        <span class="stat-value">2 poços</span>
+                        <span class="stat-value">11 poços</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Poços 50-100m:</span>
-                        <span class="stat-value">8 poços</span>
+                        <span class="stat-value">27 poços</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Poços < 50m:</span>
-                        <span class="stat-value">10 poços</span>
+                                <span class="stat-value">19 poços</span>
                     </div>
                 </div>
             </div>
@@ -108,11 +136,19 @@
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">2018:</span>
-                        <span class="stat-value">2 poços</span>
+                        <span class="stat-value">19 poços</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">2019:</span>
+                        <span class="stat-value">15 poços</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">2021-2024:</span>
+                        <span class="stat-value">5 poços</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Ano mais produtivo:</span>
-                        <span class="stat-value">2017 (70%)</span>
+                        <span class="stat-value">2018 (33%)</span>
                     </div>
                 </div>
             </div>
@@ -122,7 +158,7 @@
                 <div class="depth-stats">
                     <div class="stat-row">
                         <span class="stat-label">Projeto mais caro:</span>
-                        <span class="stat-value">R$ 19.286</span>
+                        <span class="stat-value">R$ 26.409</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Projeto mais barato:</span>
@@ -130,15 +166,15 @@
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Custo médio:</span>
-                        <span class="stat-value">R$ 8.991</span>
+                        <span class="stat-value">R$ 11.118</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Custo por metro:</span>
-                        <span class="stat-value">R$ 145/m</span>
+                        <span class="stat-value">R$ 159/m</span>
                     </div>
                     <div class="stat-row">
-                        <span class="stat-label">Projetos > R$ 10.000:</span>
-                        <span class="stat-value">7 poços</span>
+                        <span class="stat-label">Projetos > R$ 15.000:</span>
+                        <span class="stat-value">13 poços</span>
                     </div>
                 </div>
             </div>
@@ -147,20 +183,28 @@
                 <h3>🤝 Principais Patrocinadores</h3>
                 <div class="sponsor-stats">
                     <div class="stat-row">
-                        <span class="stat-label">Constanza Pascoiato:</span>
+                        <span class="stat-label">Clemilda Thomé:</span>
+                        <span class="stat-value">7 poços</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Ima Brands e Cado:</span>
+                        <span class="stat-value">4 poços</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Claudia Raia:</span>
+                        <span class="stat-value">4 poços</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Constanza Pascolato:</span>
                         <span class="stat-value">3 poços</span>
                     </div>
                     <div class="stat-row">
-                        <span class="stat-label">Bazar Amor por Estilo:</span>
-                        <span class="stat-value">2 poços</span>
+                        <span class="stat-label">Banco Máxima S/A:</span>
+                        <span class="stat-value">3 poços</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Outros patrocinadores:</span>
-                        <span class="stat-value">15 poços</span>
-                    </div>
-                    <div class="stat-row">
-                        <span class="stat-label">Total de patrocinadores:</span>
-                        <span class="stat-value">18 únicos</span>
+                        <span class="stat-value">36 poços</span>
                     </div>
                 </div>
             </div>
@@ -170,27 +214,23 @@
                 <div class="depth-stats">
                     <div class="stat-row">
                         <span class="stat-label">Taxa de sucesso:</span>
-                        <span class="stat-value">85%</span>
+                        <span class="stat-value">86%</span>
                     </div>
                     <div class="stat-row">
-                        <span class="stat-label">Instalados em 2015:</span>
-                        <span class="stat-value">1 poço</span>
+                        <span class="stat-label">Instalados (2015-2017):</span>
+                        <span class="stat-value">17 poços</span>
                     </div>
                     <div class="stat-row">
-                        <span class="stat-label">Instalados em 2016:</span>
-                        <span class="stat-value">2 poços</span>
+                        <span class="stat-label">Instalados (2018-2019):</span>
+                        <span class="stat-value">28 poços</span>
                     </div>
                     <div class="stat-row">
-                        <span class="stat-label">Instalados em 2017:</span>
-                        <span class="stat-value">10 poços</span>
-                    </div>
-                    <div class="stat-row">
-                        <span class="stat-label">Instalados em 2018:</span>
+                        <span class="stat-label">Instalados (2021-2024):</span>
                         <span class="stat-value">4 poços</span>
                     </div>
                     <div class="stat-row">
                         <span class="stat-label">Não instalados:</span>
-                        <span class="stat-value">3 poços</span>
+                        <span class="stat-value">8 poços</span>
                     </div>
                 </div>
             </div>
@@ -200,4 +240,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
