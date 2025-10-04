@@ -1,9 +1,5 @@
 # 🚰 Mapa dos Poços - Love Together
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Poços Mapeados](https://img.shields.io/badge/poços%20mapeados-20%2F50-blue)
-![Voluntário](https://img.shields.io/badge/projeto-voluntário-green)
-
 ## 📋 Sobre o Projeto
 
 Este é um projeto de **faculdade** desenvolvido para a **ONG Love Together**, com o objetivo de mapear e visualizar os poços de água potável construídos na região da Paraíba, Brasil. O sistema oferece uma interface interativa que permite acompanhar o progresso do projeto de acesso à água potável em comunidades carentes.
