@@ -74,7 +74,7 @@ mapa-pocos-love-together/
 - [x] Design responsivo
 
 ### Próximas Etapas (v2.0)
-- [ ] Adicionar os 30 poços restantes
+- [x] Adicionar os 30 poços restantes
 - [ ] Implementar filtros por município
 - [ ] Adicionar fotos dos poços
 - [ ] Sistema de busca
@@ -87,4 +87,4 @@ Este projeto é de código aberto e está disponível para uso livre, visando ap
 ---
 
 **Última atualização**: Outubro de 2025
-**Versão**: 1.0 (20 de 50 poços mapeados)
+**Versão**: 1.1 (50 de 50 poços mapeados)
