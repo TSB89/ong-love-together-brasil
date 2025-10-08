@@ -20,18 +20,24 @@ A ONG Love Together atua na construção de poços artesianos para levar água p
 
 ## 📊 Status Atual
 
-- **Total de poços existentes**: 50
-- **Poços mapeados**: 20 (40%)
-- **Poços instalados**: 17
-- **Aguardando instalação**: 3
-- **Investimento total mapeado**: R$ 179.824,00
+- **Total de poços existentes**: 57
+- **Poços mapeados**: 57 (100%)
+- **Poços instalados**: 49
+- **Poços secos**: 8
+- **Investimento total mapeado**: R$ 633.764,00
 
 ### 🗺️ Municípios Atendidos
 
-- Piancó/PB - 14 poços
-- Santana dos Garrotes/PB - 4 poços
+- Piancó/PB - 31 poços
+- Serra Grande/PB - 11 poços
+- Santana dos Garrotes/PB - 11 poços
+- Emas/PB - 2 poços
 - Boa Ventura/PB - 1 poço
 - Olho D'água/PB - 1 poço
+- Nova Olinda/PB - 1 poço
+- Itaporanga/PB - 1 poço
+- Pedra Branca/PB - 1 poço
+- Conceição/PB - 1 poço
 
 ## 🚀 Funcionalidades
 
@@ -40,7 +46,7 @@ A ONG Love Together atua na construção de poços artesianos para levar água p
 - **Estatísticas em Tempo Real**: Análises detalhadas sobre:
   - Distribuição por município
   - Profundidade dos poços
-  - Timeline dos projetos (2015-2018)
+  - Timeline dos projetos (2015-2024)
   - Análise de custos
   - Principais patrocinadores
   - Status de instalação
@@ -74,7 +80,7 @@ mapa-pocos-love-together/
 - [x] Design responsivo
 
 ### Próximas Etapas (v2.0)
-- [x] Adicionar os 30 poços restantes
+- [x] Adicionar os 37 poços restantes
 - [ ] Implementar filtros por município
 - [ ] Adicionar fotos dos poços
 - [ ] Sistema de busca
